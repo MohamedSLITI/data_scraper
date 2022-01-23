@@ -86,6 +86,7 @@ def part2(product):
 
 
 if __name__ == '__main__':
+    print("Initialize the scraper : ")
     categories = get_categories()
     products = get_products(categories)
     count = 0
